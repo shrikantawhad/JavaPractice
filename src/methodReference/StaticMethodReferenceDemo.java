@@ -4,7 +4,7 @@ interface Speak {
 	void say();
 }
 
-public class MethodReferenceDemo3 {
+public class StaticMethodReferenceDemo {
 
 	public static void talk() {
 		System.out.println("We're having conversation.");
@@ -12,7 +12,7 @@ public class MethodReferenceDemo3 {
 
 	public static void main(String[] args) {
 
-		Speak speak = MethodReferenceDemo3::talk;
+		Speak speak = StaticMethodReferenceDemo::talk;
 
 		speak.say();
 	}
