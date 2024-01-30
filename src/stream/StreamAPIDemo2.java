@@ -40,6 +40,7 @@ public class StreamAPIDemo2 {
 //			}
 //			
 //		};
+		
 
 		// *********** Simplified Implementation ********************
 		Function<Integer, Integer> fun = n -> n * 2;
