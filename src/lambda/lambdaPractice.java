@@ -16,6 +16,7 @@ public static void main(String[] args) {
 	B obj;
 	obj = new xyz();
 	obj.show();
+	
 }
 
 }
