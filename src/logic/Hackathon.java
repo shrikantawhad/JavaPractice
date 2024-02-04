@@ -32,7 +32,7 @@ import java.util.*;
     
 	import java.util.*;
 
-	public class MaximumTeams {
+	public class Hackathon {
 	    
 	    public static int maxTeams(List<Integer> teamSize, int k) {
 	        Map<Integer, Integer> freqMap = new HashMap<>();
