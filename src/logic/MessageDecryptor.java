@@ -7,7 +7,7 @@ import java.util.Map;
 public class MessageDecryptor {
 
     public static void main(String[] args) {
-        String encodedMessage = "t2e1st This i1s f1irs1t h2o3243w ab09o34ut t93h23e d0ep34loy84men34t";
+        String encodedMessage = "t2e1st This i1s f1irs1t";
         String decryptedMessage = decryptMessage(encodedMessage);
         System.out.println("Decrypted Message: " + decryptedMessage);
     }

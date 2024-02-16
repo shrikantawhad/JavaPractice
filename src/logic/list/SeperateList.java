@@ -15,6 +15,8 @@ public class SeperateList {
 		list.add("cabc");
 		list.add("si");
 		list.add("bco");
+		list.add("bco");
+		list.add("bco");
 		
 		
 		
@@ -51,17 +53,22 @@ public class SeperateList {
 		System.out.println("length 4:"+length4);
 		
 		
-		List<List<Integer>> newList = new ArrayList<List<Integer>>();
+		List<String> newList = new ArrayList<String>();
 		
 		for(int i=0;i<list.size();i++){
-			for(int j=2;j<6;j+=2) {
+			for(int j=0;j<3;j++) {
 				if(list.get(i).length()==j) {
-					System.out.println("j: "+j+" "+list.get(i));
+					newList.set(j,list.get(i));
+					list.addAll(newList);
 				}
+				System.out.println(j);
+				
 			}
+			
 			
 		}
 		
+		System.out.println("New List: "+ newList);
 		
 		Object[] str = list.toArray();
 		
