@@ -1,4 +1,4 @@
-package Collection.list;
+package Collection.list.list;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,8 +32,18 @@ public class ListDemo {
 		list.remove((Object) 15);
 		System.out.println(list);
 		
-		list.toArray(new String[list.size()]);
+		//list.toArray(new String[list.size()]);
 	
+		List<String> list1 = new ArrayList<String>();
+		
+		list1.add("Ram");
+		list1.add("Vishal");
+		list1.add("Sujit");
+		
+		System.out.println(list1);
+		
+		
+		
 	
 	}
 
