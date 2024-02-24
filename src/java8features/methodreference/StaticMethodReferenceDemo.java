@@ -1,4 +1,4 @@
-package methodReference;
+package java8features.methodreference;
 
 interface Speak {
 	void say();
