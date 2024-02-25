@@ -3,6 +3,7 @@ package java8features.optionaldemo;
 import java.util.Optional;
 
 public class OptionalClassDemo4 {
+int i= 1;
 	public static void main(String[] args) {
 
 		Optional<String> emptyOptional = Optional.empty();
@@ -21,6 +22,11 @@ public class OptionalClassDemo4 {
 		// Using orElse
 		String value = optional.orElse("orElse value is empty");
 		System.out.println(value);
+		
+		
+		
+		Optional<Integer> intOptional = Optional.ofNullable(new OptionalClassDemo4().i);
+		System.out.println(intOptional.orElse(null));
 
 	}
 }
