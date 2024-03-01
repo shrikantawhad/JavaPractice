@@ -26,7 +26,7 @@ public class HashMapDemo {
 			Map.Entry entry = (Map.Entry)itr.next();
 			//System.out.println(entry.getClass());
 			
-			System.out.println(entry.getKey()+" : "+entry.getValue());
+			System.out.println(entry.getKey() +" : "+entry.getValue());
 			
 		
 			

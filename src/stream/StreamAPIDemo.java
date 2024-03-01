@@ -1,5 +1,6 @@
 package stream;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
@@ -10,6 +11,14 @@ public class StreamAPIDemo {
 
 	public static void main(String[] args) {
 		List<Integer> list = Arrays.asList(8, 6, 3, 9, 1);
+		ArrayList<String> ar = new ArrayList<String>();
+		ar.add("Banglore");
+		ar.add("Mumbai");
+		
+		ar.forEach(v->{
+			System.out.println("v");
+			System.out.println(v);
+		});
 
 		Stream<Integer> stream = list.stream();
 

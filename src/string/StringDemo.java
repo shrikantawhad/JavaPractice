@@ -9,7 +9,19 @@ public class StringDemo {
 			newString += string.substring(0, 1);
 
 			System.out.println("newString: " + newString);
+			
+			
+			
 
 		}
+		
+		String s=new String("Hello");
+		String s2= new String("Hello");
+		
+		int x=5;
+		int z=5;
+		System.out.println(x==z);
+		System.out.println(s==s2);
+		System.out.println(s.equals(s2));
 	}
 }

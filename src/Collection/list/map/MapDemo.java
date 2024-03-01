@@ -22,7 +22,7 @@ public class MapDemo {
 		
 		System.out.println(map.remove(1));
 		System.out.println(map.entrySet());
-		System.out.println(map.replace(2, "Ram"));
+		System.out.println(map.replace(3, "Sujit"));
 		System.out.println(map.entrySet());
 		
 		//System.out.println(map.);

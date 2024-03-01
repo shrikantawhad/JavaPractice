@@ -17,19 +17,19 @@ public class StreamAPIDemo3 {
 		st.forEach(s->System.out.println(s));
 		
 		
-		List<List<Integer>> arr =(8, 6, 3, 9, 1),(234,124)
+//		List<List<Integer>> arr =(8, 6, 3, 9, 1),(234,124)
 		
-		Stream str=Arrays.stream(arr);
+//		Stream str=Arrays.stream(list);
 		
 		//str.flatMap(i-> Stream.of(arr)).forEach(System.out::println);
 		
 		//str.flatMap(num -> num.stream());
 		
-		list =arr;
+//		list =arr;
 		
-		str.stream() 
-        .flatMap(list -> list.stream()) 
-        .collect(Collectors.toList()); 
+//		str.stream() 
+//        .flatMap(list -> list.stream()) 
+//        .collect(Collectors.toList()); 
 		
 	}
 }
